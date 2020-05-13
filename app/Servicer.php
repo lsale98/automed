@@ -8,6 +8,7 @@ use Illuminate\Notifications\Notifiable;
 
 class Servicer extends Authenticatable
 {
+
     use Notifiable;
 
     protected $guard = 'servicer';
