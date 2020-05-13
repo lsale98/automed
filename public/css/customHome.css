@@ -13,6 +13,8 @@
 #main #homeVideo {
     filter: brightness(30%);
     background-size: cover;
+    /* object-position: -50% -500px; */
+    zoom: 0.5;
 }
 
 #home {
