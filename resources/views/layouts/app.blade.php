@@ -22,6 +22,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/customHome.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/customLogin.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/customRegister.css')}}">
 </head>

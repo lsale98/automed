@@ -1,8 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-<video autoplay>
-    <source src="{{asset('videos/home.mp4')}}" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+<div id="home">
+    <h1 id="heading"><i class="fas fa-file-medical"></i> Automed</h1>
+    <div id="redirection">
+        <p>Create account to find best servicers</p>
+        <a href="/register" class="btn">Create</a>
+    </div>
+</div>
 @endsection
