@@ -14,7 +14,6 @@
                         {{ session('status') }}
                     </div>
                     @endif
-
                     All cars at your service shop!
                 </div>
             </div>
