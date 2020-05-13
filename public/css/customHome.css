@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#main #homeVideo {
+    filter: brightness(30%);
+    background-size: cover;
+    /* object-position: -50% -500px; */
+    zoom: 0.5;
+}
+
+#home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#home #heading {
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+#home #heading i {
+    font-size: 50px;
+    margin-right: 10px;
+    color: green;
+}
+
+#home #redirection {
+    text-align: center;
+}
+
+#home #redirection p {
+    font-size: 30px;
+}
+
+#home #redirection a {
+    color: white;
+    background-color: green;
+}

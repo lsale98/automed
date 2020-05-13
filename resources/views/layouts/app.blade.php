@@ -22,18 +22,21 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="{{asset('css/customLogin.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/customRegister.css')}}">
+    @yield('styles')
 </head>
 
 <body>
     <div id="app">
         @include('inc.navbar')
-
+        @yield('home')
         <main class="py-4 container">
             @include('inc.messages')
             @yield('content')
         </main>
+
     </div>
 </body>
 
