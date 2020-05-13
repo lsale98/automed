@@ -1,11 +1,18 @@
 @extends('layouts.app')
-
-@section('content')
-<div id="home">
-    <h1 id="heading"><i class="fas fa-file-medical"></i> Automed</h1>
-    <div id="redirection">
-        <p>Create account to find best servicers</p>
-        <a href="/register" class="btn">Create</a>
+@section('styles')
+<link rel="stylesheet" type="text/css" href="{{asset('css/customHome.css')}}">
+@endsection
+@section('home')
+<div id="main">
+    <video autoplay="autoplay" loop="true" id="homeVideo">
+        <source src="{{asset('videos/homeVideo.mp4')}}" type="video/mp4">
+    </video>
+    <div id="home">
+        <h1 id="heading"><i class="fas fa-file-medical"></i> Automed</h1>
+        <div id="redirection">
+            <p>Create account to hire best servicers</p>
+            <a href="/register" class="btn">Create</a>
+        </div>
     </div>
 </div>
 @endsection
