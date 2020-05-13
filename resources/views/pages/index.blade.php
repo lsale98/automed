@@ -4,7 +4,7 @@
 @endsection
 @section('home')
 <div id="main">
-    <video autoplay loop id="homeVideo">
+    <video id="homeVideo" autoplay loop muted onload="video()">
         <source src="{{asset('videos/homeVideo.mp4')}}" type="video/mp4">
     </video>
     <div id="home">
@@ -17,6 +17,8 @@
 </div>
 
 <script>
-    document.getElementById('homeVideo').play();
+    function video() {
+        document.getElementById('homeVideo').play();
+    }
 </script>
 @endsection
