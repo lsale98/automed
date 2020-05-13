@@ -8,7 +8,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Left Side Of Navbar -->
+
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
@@ -16,7 +16,7 @@
                 <li class="nav-item"><a href="/car-market" class="nav-link">Car Market</a></li>
             </ul>
 
-            <!-- Right Side Of Navbar -->
+
             <ul class="navbar-nav ml-auto">
 
                 @if(Auth::guard('servicer')->check())
