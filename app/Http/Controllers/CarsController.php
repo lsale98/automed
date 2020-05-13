@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Storage;
 
 class CarsController extends Controller
 {
+
     /**
      * Create a new controller instance.
      *

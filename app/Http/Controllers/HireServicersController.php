@@ -7,6 +7,7 @@ use App\Car;
 
 class HireServicersController extends Controller
 {
+
     /**
      * Create a new controller instance.
      *

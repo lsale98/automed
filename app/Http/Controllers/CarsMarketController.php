@@ -7,6 +7,7 @@ use App\Car;
 
 class CarsMarketController extends Controller
 {
+
     public function index()
     {
         $cars = Car::where('sell_id', 1)->orderBy('created_at', 'desc')->paginate(10);

@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Hash;
 
 class ProfilesEditServicersController extends Controller
 {
+
     public function __construct()
     {
         $this->middleware('auth:servicer');
